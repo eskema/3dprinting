@@ -1,18 +1,18 @@
 {
     "id": "hello-bee-prusa",
     "name": "helloBEEprusa",
-	"manufacturer": "BEEVERYCREATIVE",
-	"author": "BEEVERYCREATIVE",
+    "manufacturer": "BEEVERYCREATIVE",
+    "author": "BEEVERYCREATIVE",
     "version": 1,
     "inherits": "fdmprinter.json",
     "machine_settings": {
-		"machine_heated_bed": { "default": true },
-		"machine_center_is_zero": { "default": false },
+        "machine_heated_bed": { "default": true },
+        "machine_center_is_zero": { "default": false },
         "machine_width": { "default": 185 },
         "machine_height": { "default": 190 },
         "machine_depth": { "default": 200 },
         "machine_nozzle_size": { "default": 0.4 },
-		"material_diameter": { "default": 1.75 },
+        "material_diameter": { "default": 1.75 },
         "machine_head_shape_min_x": { "default": 75 },
         "machine_head_shape_min_y": { "default": 18 },
         "machine_head_shape_max_x": { "default": 18 },
@@ -37,7 +37,7 @@
             }
         }
     },
-	"overrides": {
+    "overrides": {
         "material_print_temperature": { "default": 220.0, "visible": true },
         "material_bed_temperature": { "default": 60, "visible": true }
     }
